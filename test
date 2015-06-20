@@ -1,0 +1,5 @@
+FROM ubuntu:14.04
+MAINTAINER Dillon Torgersen dtorgersen86@gmail.com
+RUN apt-get update -y
+RUN apt-get install vim, sqlite3, whois, tree, nmap
+RUN apt-get update -y
