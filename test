@@ -1,5 +1,12 @@
-FROM ubuntu:14.04
+#TEST DOCKER FILE
+FROM dtorgersen/machine_build
+
 MAINTAINER Dillon Torgersen dtorgersen86@gmail.com
+
 RUN apt-get update -y
+
 RUN apt-get install vim, sqlite3, whois, tree, nmap
+
 RUN apt-get update -y
+
+CMD ["/bin/bash", "-D", "FOREGROUND"]
