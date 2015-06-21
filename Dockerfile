@@ -1,7 +1,7 @@
 
 # A basic apache server with PHP. To use either add or bind mount content under /var/www
 
-FROM kstaken/apache2
+FROM dtorgersen/machine_build
 
 MAINTAINER Kimbro Staken version: 0.1
 
